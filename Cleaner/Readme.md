@@ -7,7 +7,7 @@ Cleaner - очищает 2 списка авиакомпаний от дубли
 ```
 mkdir build
 cd build
-cmake ..
+cmake ..https://github.com/DradeHattori/AirlineComparator/blob/main/Cleaner/Readme.txt
 cmake build .
 ```
 
