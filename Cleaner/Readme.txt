@@ -4,15 +4,21 @@ Cleaner - очищает 2 списка авиакомпаний от дубли
 
 Для запуска необходимо собрать с помощью CMake следующими командами: 
 
-& mkdir build
-& cd build
-& cmake ..
-& cmake build .
+```
+mkdir build
+cd build
+cmake ..
+cmake build .
+```
 
 Для запуска с параметрами: 
-& comparator airline_1 airline_2 
+```
+comparator airline_1 airline_2 
+```
 
 Для запуска с консольным вводом:
-& comparator 
+```
+comparator 
+```
 
 Вместо comparator - необходимо написать полный или относительный путь до программы
