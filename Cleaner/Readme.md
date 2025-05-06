@@ -10,15 +10,3 @@ cd build
 cmake ..
 cmake build .
 ```
-
-Для запуска с параметрами: 
-```
-airlinecleaner  airline_1 airline_2 
-```
-
-Для запуска с консольным вводом:
-```
-airlinecleaner  
-```
-
-Вместо airlinecleaner  - необходимо написать полный или относительный путь до программы
