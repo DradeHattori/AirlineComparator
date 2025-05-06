@@ -13,12 +13,12 @@ cmake build .
 
 Для запуска с параметрами: 
 ```
-cleaner airline_1 airline_2 
+airlinecleaner  airline_1 airline_2 
 ```
 
 Для запуска с консольным вводом:
 ```
-cleaner 
+airlinecleaner  
 ```
 
-Вместо cleaner - необходимо написать полный или относительный путь до программы
+Вместо airlinecleaner  - необходимо написать полный или относительный путь до программы
