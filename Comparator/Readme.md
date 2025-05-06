@@ -8,5 +8,3 @@ cd build
 cmake ..
 cmake build .
 ```
-
-Вместо airlinecleaner - необходимо написать полный или относительный путь до программы
