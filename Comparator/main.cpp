@@ -10,7 +10,7 @@ std::string ParseAirlineCode (const std::string& airline) {
             result += ch;
         }
         else if (ch >= 'a' && ch <= 'z') {
-            ch = toupper(ch); // приведение кодов авиалиний к общему upercase формату
+            ch = toupper(ch); // РїСЂРёРІРѕРґРёРј Рє РІРµСЂС…РЅРµРјСѓ СЂРµРіРёСЃС‚СЂСѓ
             result += ch;
         }
     }
@@ -23,12 +23,12 @@ int main(int argc, const char* argv[]) {
 	std::string airline_left;
 	std::string airline_right;
 
-    // 1) запуск с аргументами командной строки (comparator airline_1 airline_2) 
+    // 1) Р—Р°РїСѓСЃРє СЃ РїР°СЂР°РјРµС‚СЂР°РјРё РєРѕРјР°РЅРґРЅРѕР№ СЃС‚СЂРѕРєРё (comparator airline_1 airline_2) 
 	if (argc == 3) {
         airline_left = argv[1];
         airline_right = argv[2];
 	}
-    // 2) если аргументы командной строки не заданы - программа запрашивает ввод данных в консоль
+    // 2) Р—Р°РїСѓСЃРє СЃ РїРѕРґРґРµСЂР¶РєРѕР№ РІРІРѕРґР° РІ РєРѕРЅСЃРѕР»СЊ
     else {
         std::cout << "Enter airline code: ";
         std::getline(std::cin, airline_left);
