@@ -14,7 +14,7 @@ std::string ParseAirlineCode (const std::string& airline) {
             result += ch;
         }
         else if (ch >= 'a' && ch <= 'z') {
-            ch = toupper(ch); // приведение кодов авиалиний к общему upercase формату
+            ch = toupper(ch); // РїСЂРёРІРѕРґРёРј Рє РІРµСЂС…РЅРµРјСѓ СЂРµРіРёСЃС‚СЂСѓ
             result += ch;
         }
     }
